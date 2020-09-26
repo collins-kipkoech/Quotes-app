@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteMessageComponent } from './quote-message/quote-message.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { QuoteMessageComponent } from './quote-message/quote-message.component';
     AppComponent,
     QuoteComponent,
     QuoteMessageComponent,
+    QuoteFormComponent,
     
   ],
   imports: [
