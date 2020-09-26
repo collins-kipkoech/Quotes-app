@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+    <h1>My Goals</h1>
+<hr>
+<ul>
+  <div *ngFor='let quote of quotes;let i = index'>
+    <li>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li> 
+    
+    <button (click)='toggleDetails(i)'>View</button>
+    <app-quote-message *ngIf='quote.showMessage' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-message>
+    
+  </div>
+</ul>
+  
+</body>
+</html>
