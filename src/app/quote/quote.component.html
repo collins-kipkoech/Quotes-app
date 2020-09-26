@@ -10,7 +10,7 @@
 <hr>
 <ul>
   <div *ngFor='let quote of quotes;let i = index'>
-    <li>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li> 
+    <li>This Quote is due on {{quote.completeDate|date|uppercase}}</li> 
     
     <button (click)='toggleDetails(i)'>View</button>
     <app-quote-message *ngIf='quote.showMessage' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-message>
