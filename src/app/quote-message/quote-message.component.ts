@@ -17,7 +17,15 @@ export class QuoteMessageComponent implements OnInit {
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  upVoteCount: number = 0;
+  clickCount_upVote(): void{
+    this.upVoteCount++
+  }
 
+    downVoteCount: number = 0;
+    clickCount_downVote(): void{
+      this.downVoteCount++
+    }
   constructor() { }
 
   ngOnInit(): void {
