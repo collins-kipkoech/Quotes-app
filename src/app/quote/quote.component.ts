@@ -10,10 +10,11 @@ export class QuoteComponent implements OnInit {
   title='Quotes App'
   quotes:Quote[] = [
     new Quote('coding is good','steve jobs','collins',new Date()),
-    new Quote('coding is good','steve jobs','collins', new Date(2020,9,25))
+    new Quote('coding is good','steve jobs','collins', new Date())
   ];
   toggleDetails(index){
     this.quotes[index].showMessage = !this.quotes[index].showMessage;
+    
     
   }
   completeQuote(isComplete, index){

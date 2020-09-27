@@ -1,3 +1,11 @@
 <p>{{quote.quote_message}}</p>
+<p>Author: {{quote.Author}}</p>
+<p>Send By: {{quote.name}}</p>
+<button ng-click="count = count + 1" ng-init="count=0">
+    upvote
+</button>
+<button ng-click="count = count + 1" ng-init="count=0">
+    downvote
+</button>
 <button (click)= 'quoteComplete(true)'>Delete</button>
 
