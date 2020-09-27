@@ -12,6 +12,13 @@ export class QuoteComponent implements OnInit {
     new Quote('coding is good','steve jobs','collins',new Date()),
     new Quote('coding is good','steve jobs','collins', new Date())
   ];
+  addNewQuote(quote){
+    let goalLength = this.quotes.length;
+    quote.id = goalLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+  }
+  
   toggleDetails(index){
     this.quotes[index].showMessage = !this.quotes[index].showMessage;
     
@@ -24,13 +31,14 @@ export class QuoteComponent implements OnInit {
   }
   deleteQuote(isComplete, index){
     if (isComplete) {
-      let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
+      let toDelete = confirm(`Are you sure you want to delete this quote send by ${this.quotes[index].name}?`)
 
       if (toDelete){
         this.quotes.splice(index,1)
       }
     }
   }
+  
   
 
   constructor() { }

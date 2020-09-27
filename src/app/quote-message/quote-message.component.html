@@ -1,5 +1,6 @@
-<p>{{quote.quote_message}}</p>
-<p>Author: {{quote.Author}}</p>
+<span class="border border-primary">
+    <p>{{quote.quote_message}}</p>
+<p>Author: {{quote.author}}</p>
 <p>Send By: {{quote.name}}</p>
 {{upVoteCount}}
 <button (click)="clickCount_upVote()">
@@ -10,11 +11,9 @@
     <img src='/assets/images/downvote.jpg' height="50px" width="50px">
 </button>
 
-
-
-
 <button (click)= 'quoteComplete(true)'>
     <img src="/assets/images/delete.png" height="50px" width="50px">
 </button>
 
+</span>
 

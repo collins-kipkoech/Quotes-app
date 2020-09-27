@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteMessageComponent } from './quote-message/quote-message.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,10 +16,12 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     QuoteMessageComponent,
     QuoteFormComponent,
     
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
