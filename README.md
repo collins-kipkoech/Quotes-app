@@ -31,6 +31,7 @@ Quotes app is an application where a user create a quote with quote message, aut
 
 Links 
 active link: https://kipkoech-msojo.github.io/Quotes-app/
+
 figma link:https://www.figma.com/file/qX2jpXR0tR42PhZKzSsmUI/quote-app?node-id=0%3A1
 
 Screenshots
