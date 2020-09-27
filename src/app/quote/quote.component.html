@@ -20,7 +20,7 @@
                 <h3>View Quotes</h3>
                 <ul>
                     <div *ngFor='let quote of quotes;let i = index'>
-                        <li>Posted on {{quote.completeDate|date|uppercase}}</li> 
+                        <li>Posted on {{quote.completeDate|date|uppercase}} at {{quote.time | date: 'HH:mm:ss'}}</li> 
                         <button (click)='toggleDetails(i)'>View</button>
                         <app-quote-message *ngIf='quote.showMessage' [quote]='quote' (isComplete) = 'deleteQuote($event,i)'>
                             
