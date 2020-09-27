@@ -26,6 +26,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # Quotes-app
+App Description
+Quotes app is an application where a user create a quote with quote message, author and name of person sending then posts. The quotes posted can be voted on based on whether they are inspirational or terrible.
+
+Links 
+active link: https://kipkoech-msojo.github.io/Quotes-app/
+figma link:https://www.figma.com/file/qX2jpXR0tR42PhZKzSsmUI/quote-app?node-id=0%3A1
+
+Screenshots
+
 Technologies used
 1. typescript
 2. javascript
