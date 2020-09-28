@@ -34,8 +34,6 @@ active link: https://kipkoech-msojo.github.io/Quotes-app/
 
 figma link:https://www.figma.com/file/qX2jpXR0tR42PhZKzSsmUI/quote-app?node-id=0%3A1
 
-MIT License link: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 Screenshots
 
 ![image](https://user-images.githubusercontent.com/68596898/94392041-d90d9900-015f-11eb-923a-8693f59c18f2.png)
@@ -55,5 +53,7 @@ Technologies used
 
 Contact information
 Email address: collinskipkoech95@gmail.com
+
+MIT ©
 
 
