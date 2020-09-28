@@ -36,6 +36,8 @@ figma link:https://www.figma.com/file/qX2jpXR0tR42PhZKzSsmUI/quote-app?node-id=0
 
 Screenshots
 
+![image](https://user-images.githubusercontent.com/68596898/94392041-d90d9900-015f-11eb-923a-8693f59c18f2.png)
+
 Technologies used
 1. typescript
 2. javascript
