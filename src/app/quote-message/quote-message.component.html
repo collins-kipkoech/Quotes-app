@@ -3,17 +3,16 @@
 <p>Author: {{quote.author}}</p>
 <p>Send By: {{quote.name}}</p>
 {{upVoteCount}}
-<button (click)="clickCount_upVote()">
-    <img src='/assets/images/f_upvote.png' height="50px" width="50px">
+<button (click)="clickCount_upVote()" id="upvote">
+    <img src='/assets/images/f_upvote.png' height="30px" width="40px">
 </button>
 {{downVoteCount}}
-<button (click)="clickCount_downVote()">
-    <img src='/assets/images/downvote.jpg' height="50px" width="50px">
+<button (click)="clickCount_downVote()" id="downvote">
+    <img src='/assets/images/downvote.jpg' height="30px" width="40px">
 </button>
 
-<button (click)= 'quoteComplete(true)'>
-    <img src="/assets/images/delete.png" height="50px" width="50px">
+<button (click)= 'quoteComplete(true)' id="delete">
+    <img src="/assets/images/delete.png" height="30px" width="40px">
 </button>
 
-</span>
-
+</span><hr>

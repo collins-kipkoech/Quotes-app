@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   title='Quotes App'
   quotes:Quote[] = [
-    new Quote('coding is good','steve jobs','collins',new Date(),new Date()),
-    new Quote('coding is good','steve jobs','collins', new Date(),new Date())
+    new Quote('“Do not worry if it does not work right [when coding]. If everything did, you do be out of a job.”','steve jobs','collins',new Date(),new Date()),
+    new Quote('First, solve the problem. Then, write the code.','John Johnson','collins', new Date(),new Date())
   ];
   addNewQuote(quote){
     let goalLength = this.quotes.length;
