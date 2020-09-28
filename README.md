@@ -54,6 +54,6 @@ Technologies used
 Contact information
 Email address: collinskipkoech95@gmail.com
 
-MIT ©
+[MIT](Collins Kipkoech)
 
 
